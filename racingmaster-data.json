@@ -397,21 +397,21 @@
       "id": "car-1787479228554",
       "name": "911 Carrera 4 '89",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "13332",
+      "maxPoint": 794,
       "imageName": "91189.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 102380,
+          "sicilia": 84945,
+          "indy_reverse": 101259,
+          "redbull_fiesta": 94048
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 92913,
+          "sicilia": 79018,
+          "indy_reverse": 94291,
+          "redbull_fiesta": 87235
         }
       }
     },
@@ -463,21 +463,21 @@
       "id": "car-1787479317469",
       "name": "Corvette C3 '73",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23132",
+      "maxPoint": 767,
       "imageName": "C373.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 104307,
+          "sicilia": 89385,
+          "indy_reverse": 104546,
+          "redbull_fiesta": 97135
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 95844,
+          "sicilia": 80362,
+          "indy_reverse": 96375,
+          "redbull_fiesta": 87607
         }
       }
     },
@@ -507,21 +507,21 @@
       "id": "car-1787479359912",
       "name": "DB Vantage '64",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 791,
       "imageName": "DB5VANTAGE64.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 101669,
+          "sicilia": 84736,
+          "indy_reverse": 103100,
+          "redbull_fiesta": 93250
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 92701,
+          "sicilia": 78606,
+          "indy_reverse": 94062,
+          "redbull_fiesta": 86554
         }
       }
     },
@@ -551,21 +551,21 @@
       "id": "car-1787479412375",
       "name": "Fiat 500F '65",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "13232",
+      "maxPoint": 773,
       "imageName": "FIAT500F65.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 99754,
+          "sicilia": 85619,
+          "indy_reverse": 103684,
+          "redbull_fiesta": 92965
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 96800,
+          "sicilia": 81857,
+          "indy_reverse": 95863,
+          "redbull_fiesta": 91678
         }
       }
     },
@@ -639,21 +639,21 @@
       "id": "car-1787479562597",
       "name": "John Cooper Works GP '20",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 753,
       "imageName": "JOHNCOOPER20.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 102301,
+          "sicilia": 86255,
+          "indy_reverse": 103985,
+          "redbull_fiesta": 95526
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 96280,
+          "sicilia": 81203,
+          "indy_reverse": 96311,
+          "redbull_fiesta": 88239
         }
       }
     },
