@@ -419,21 +419,21 @@
       "id": "car-1787479265980",
       "name": "AE86 '85",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 800,
       "imageName": "AE8685.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 100925,
+          "sicilia": 83787,
+          "indy_reverse": 99981,
+          "redbull_fiesta": 92375
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 92203,
+          "sicilia": 78691,
+          "indy_reverse": 92827,
+          "redbull_fiesta": 85623
         }
       }
     },
@@ -595,21 +595,21 @@
       "id": "car-1787479487551",
       "name": "Skyline GT-R '89",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 802,
       "imageName": "GTR3289.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 97596,
+          "sicilia": 83555,
+          "indy_reverse": 99657,
+          "redbull_fiesta": 90474
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 92064,
+          "sicilia": 78141,
+          "indy_reverse": 92261,
+          "redbull_fiesta": 86035
         }
       }
     },
@@ -661,21 +661,21 @@
       "id": "car-1787479599215",
       "name": "Lancer Evolution III '95",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 791,
       "imageName": "LANCEREVO95.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 102544,
+          "sicilia": 87277,
+          "indy_reverse": 104214,
+          "redbull_fiesta": 93667
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 93944,
+          "sicilia": 78772,
+          "indy_reverse": 94038,
+          "redbull_fiesta": 86202
         }
       }
     },
@@ -683,21 +683,21 @@
       "id": "car-1787479634127",
       "name": "M235i xDrive '19",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 763,
       "imageName": "M235I19.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 105224,
+          "sicilia": 89722,
+          "indy_reverse": 106085,
+          "redbull_fiesta": 96231
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 95768,
+          "sicilia": 80533,
+          "indy_reverse": 97333,
+          "redbull_fiesta": 87326
         }
       }
     },
@@ -727,21 +727,21 @@
       "id": "car-1787479682369",
       "name": "Mustang Mach 1 '69",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23132",
+      "maxPoint": 764,
       "imageName": "MUSTANGMACH169.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 102455,
+          "sicilia": 86128,
+          "indy_reverse": 103232,
+          "redbull_fiesta": 93938
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 95392,
+          "sicilia": 80510,
+          "indy_reverse": 95261,
+          "redbull_fiesta": 86922
         }
       }
     },
@@ -793,21 +793,21 @@
       "id": "car-1787479761439",
       "name": "Camaro Z/28 '70",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23132",
+      "maxPoint": 785,
       "imageName": "Z2870.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 99398,
+          "sicilia": 85259,
+          "indy_reverse": 100461,
+          "redbull_fiesta": 92718
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 92110,
+          "sicilia": 77824,
+          "indy_reverse": 92464,
+          "redbull_fiesta": 86265
         }
       }
     },
