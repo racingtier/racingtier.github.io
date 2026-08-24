@@ -703,7 +703,7 @@
     },
     {
       "id": "car-1787479658341",
-      "name": "M3 '01",
+      "name": "3 Series M3 '01",
       "class": "standard",
       "tuning": "00000",
       "maxPoint": 0,
@@ -1478,6 +1478,578 @@
       "tuning": "00000",
       "maxPoint": 0,
       "imageName": "GALLARDO11.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581755590",
+      "name": "720S Coupe '17",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "720S17.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581776374",
+      "name": "918 Spyder '15",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "91815.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581790768",
+      "name": "Agera RS '15",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "AGERA15.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581809022",
+      "name": "Centodieci '20",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "CENTODIECI20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581825574",
+      "name": "Chiron '15",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "CHIRON15.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581843919",
+      "name": "CLK GTR '98",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "CLK98.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581859322",
+      "name": "Divo '21",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "DIVO21.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581904802",
+      "name": "F8 Tributo '20",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "F820.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581925670",
+      "name": "Ford GT '17",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "GT17.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581959860",
+      "name": "AMG GT R Coupe '20",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "GTRCOUPE20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581979841",
+      "name": "Challenger Hellcat '18",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "HELLCAT18.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582004059",
+      "name": "Huayra BC '17",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "HUAYRA17.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582021633",
+      "name": "Jesko Attack '23",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "JESKO23.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582035049",
+      "name": "LaFerrari '14",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "LAFERRARI14.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582051985",
+      "name": "M8 GTE '19",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "M819.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582069292",
+      "name": "Monza SP1 '19",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "MONZA19.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582085726",
+      "name": "ONE:1 '14",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "ONE14.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582103044",
+      "name": "P1 '15",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "P115.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582124934",
+      "name": "R8 V10 RWD Spyder '20",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "R820.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582149926",
+      "name": "Revuelto '23",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "REVUELTO23.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582168640",
+      "name": "SF90 Stradale '20",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "SF9020.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582187577",
+      "name": "Aventador SVJ '19",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "SVJ19.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582205474",
+      "name": "Valhalla Concept '19",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "VALHALLA19.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582222743",
+      "name": "Veneno '13",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "VENENO13.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582241196",
+      "name": "N Vision 74 '22",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "VISION22.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787582258254",
+      "name": "Vulcan '17",
+      "class": "extreme",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "VULCAN17.png",
       "records": {
         "base": {
           "tokyo_skytree_half": 120000,
