@@ -12,8 +12,9 @@
     :root {
       color-scheme: dark;
       --bg: #070b12;
-      --panel: #0e1624;
-      --panel-hover: #141f32;
+      /* 상단 맵셀, 카드 배경 밝게 조정 */
+      --panel: #162135; 
+      --panel-hover: #1e2d46; 
       --text: #f1f5f9;
       --muted: #8b9bb4;
       --line: #1e293b;
@@ -66,7 +67,6 @@
       justify-self: start;
     }
 
-    /* 타이틀 폰트 사이즈 1.2배 확대 (15px~20px -> 18px~24px) */
     h1 {
       margin: 0;
       font-size: clamp(18px, 2.4vw, 24px);
@@ -244,7 +244,6 @@
       transition: border-color 0.2s ease, background 0.2s ease;
     }
 
-    /* 5개 단위 여백 +10px 추가 (기존 margin 20px -> 30px) */
     .car-card:nth-child(5n):not(:last-child) {
       margin-bottom: 30px; 
     }
@@ -280,7 +279,6 @@
     .rank-2 { background: rgba(148, 163, 184, 0.15); color: var(--silver); border: 1px solid rgba(148, 163, 184, 0.4); }
     .rank-3 { background: rgba(251, 146, 60, 0.15); color: var(--bronze); border: 1px solid rgba(251, 146, 60, 0.4); }
 
-    /* 요청하신 차량 이미지 너비 90px 지정 */
     .car-image {
       width: 90px;
       aspect-ratio: 16 / 10;
@@ -402,7 +400,7 @@
       .metric-body strong { font-size: 14px; }
       .metric-body span.track-car { font-size: 10.5px; }
       .rank-badge { width: 28px; height: 28px; font-size: 13px; }
-      .car-image { width: 70px; } /* 모바일 가로 너비도 비례해서 조정 */
+      .car-image { width: 70px; } 
       .car-name { font-size: 13.5px; }
       .car-sub-info { font-size: 11px; }
       .car-score-large { font-size: 20px; }
@@ -449,16 +447,15 @@
         justify-self: center;
       }
       
-      /* 모바일 클래스 탭: 가로 폭 1.3배 지정 (width: 130%) */
+      /* 모바일 클래스 탭: 가로 폭 130%에서 150%로 확장 */
       .tabs {
-        width: 130%;
-        max-width: 100%;
+        width: 150%;
+        max-width: 150%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 2px;
       }
       
-      /* 모바일 클래스 탭: 높이를 ECU 탭과 동일한 28px로 축소 */
       .tab {
         padding: 0 4px;
         font-size: 12px;
@@ -614,6 +611,13 @@
       els.cardList.innerHTML = cars.map((car, index) => {
         const rank = index + 1;
         const rankClass = rank <= 3 ? `rank-${rank}` : "";
+        
+        // 1, 2, 3위에 각각 이모지 적용
+        let rankDisplay = rank;
+        if (rank === 1) rankDisplay = "🥇";
+        else if (rank === 2) rankDisplay = "🥈";
+        else if (rank === 3) rankDisplay = "🥉";
+
         const tuningVal = car.tuning ? escapeHtml(car.tuning) : "00000";
         const maxPointVal = car.maxPoint !== undefined && car.maxPoint !== null ? escapeHtml(car.maxPoint) : "-";
         const scoreVal = car.scoreData.score;
@@ -644,7 +648,7 @@
         return `
           <article class="car-card">
             <div class="block-info">
-              <span class="rank-badge ${rankClass}">${rank}</span>
+              <span class="rank-badge ${rankClass}">${rankDisplay}</span>
               <div class="car-image">
                 ${imageSrc(car) ? `<img src="${escapeHtml(imageSrc(car))}" alt="${escapeHtml(car.name)}">` : `<span aria-hidden="true"></span>`}
               </div>
