@@ -56,15 +56,11 @@
       width: min(1000px, calc(100% - 24px));
       margin: 0 auto;
       display: grid;
+      /* PC: 3단 그리드 (좌측: 브랜드, 중앙: 탭, 우측: 국기) */
       grid-template-columns: 1fr auto 1fr;
       gap: 12px;
       align-items: center;
       padding: 12px 0;
-    }
-
-    /* 반응형을 위한 헤더 탑 그룹화 (PC에서는 contents 속성으로 그리드 유지) */
-    .header-top {
-      display: contents;
     }
 
     .brand {
@@ -78,6 +74,15 @@
       letter-spacing: 0.5px;
       color: #e2e8f0;
       text-transform: uppercase;
+    }
+
+    /* 중앙 네비게이션 컨테이너 */
+    .nav-container {
+      justify-self: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
     }
 
     /* 국가 선택 버튼 영역 */
@@ -106,14 +111,6 @@
       opacity: 1;
       background: rgba(255, 255, 255, 0.08);
       border-color: var(--line-strong);
-    }
-
-    /* 중앙 네비게이션 컨테이너 */
-    .nav-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
     }
 
     /* 클래스 탭 */
@@ -389,7 +386,7 @@
       min-width: 0;
     }
 
-    /* 트랙 셀 배경색 투명하게 변경하여 네모 삭제 */
+    /* 트랙 셀 배경색 투명하게 유지 */
     .track-cell {
       background: transparent;
       border: none;
@@ -471,19 +468,27 @@
       .header-inner,
       main { width: min(100% - 12px, 1000px); }
       
+      /* 모바일에서는 타이틀과 탭 사이 간격을 20px로 넓힘 */
       .header-inner {
-        display: flex;
-        flex-direction: column;
-        gap: 20px; /* 모바일 헤더 간격 넓게 수정 */
-        padding: 12px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 10px; /* 세로(행) 간격 20px */
+        padding: 12px 4px;
       }
 
-      .header-top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 0 4px;
+      .brand {
+        grid-column: 1 / 2;
+        justify-self: start;
+      }
+      
+      .region-tabs {
+        grid-column: 2 / 3;
+        justify-self: end;
+      }
+      
+      .nav-container {
+        grid-column: 1 / 3;
+        justify-self: center;
       }
       
       .tabs {
@@ -509,15 +514,8 @@
 <body>
   <header class="app-header">
     <div class="header-inner">
-      <div class="header-top">
-        <div class="brand">
-          <h1>Racing Master TIER</h1>
-        </div>
-        <div class="region-tabs" aria-label="국가 선택">
-          <button class="region-btn active" data-region="kr" title="한국">🇰🇷</button>
-          <button class="region-btn" data-region="jp" title="일본">🇯🇵</button>
-          <button class="region-btn" data-region="us" title="미국">🇺🇸</button>
-        </div>
+      <div class="brand">
+        <h1>Racing Master TIER</h1>
       </div>
       
       <div class="nav-container">
@@ -530,6 +528,12 @@
           <button class="state-tab" data-state="base" aria-selected="true">ECU 0</button>
           <button class="state-tab" data-state="full" aria-selected="false">ECU 5</button>
         </div>
+      </div>
+
+      <div class="region-tabs" aria-label="국가 선택">
+        <button class="region-btn active" data-region="kr" title="한국">🇰🇷</button>
+        <button class="region-btn" data-region="jp" title="일본">🇯🇵</button>
+        <button class="region-btn" data-region="us" title="미국">🇺🇸</button>
       </div>
     </div>
   </header>
@@ -578,13 +582,11 @@
           render();
         });
       });
-      // 임시 국가 선택 버튼 이벤트 (UI 변경용)
       els.regionBtns.forEach((button) => {
         button.addEventListener("click", () => {
           els.regionBtns.forEach(btn => btn.classList.remove("active"));
           button.classList.add("active");
           state.region = button.dataset.region;
-          // 나중에 국가별 데이터 로직이 추가되면 여기서 render() 등을 호출할 수 있습니다.
         });
       });
     }
@@ -664,12 +666,11 @@
       els.cardList.innerHTML = cars.map((car, index) => {
         const rank = index + 1;
         
-        // 1, 2, 3위에 이모지 및 전용 클래스 적용 (배경 박스 없음)
         let rankHtml = '';
         if (rank === 1) rankHtml = `<span class="rank-medal">🥇</span>`;
         else if (rank === 2) rankHtml = `<span class="rank-medal">🥈</span>`;
         else if (rank === 3) rankHtml = `<span class="rank-medal">🥉</span>`;
-        else rankHtml = `<span class="rank-badge">${rank}</span>`; // 4위부터는 기존 박스 형태
+        else rankHtml = `<span class="rank-badge">${rank}</span>`;
 
         const tuningVal = car.tuning ? escapeHtml(car.tuning) : "00000";
         const maxPointVal = car.maxPoint !== undefined && car.maxPoint !== null ? escapeHtml(car.maxPoint) : "-";
@@ -683,7 +684,7 @@
           if (trackDisplayName.includes("스카이트리")) {
             trackDisplayName = "스카이트리 하프";
           } else if (trackDisplayName.includes("진주해안")) {
-            trackDisplayName = "진주해안";
+            trackDisplayName = "시칠리아 진주해안";
           } else if (trackDisplayName.includes("클래식")) {
             trackDisplayName = "클래식 서킷 리버스";
           } else if (trackDisplayName.includes("피에스타")) {
