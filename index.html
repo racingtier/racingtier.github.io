@@ -82,7 +82,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
     }
 
     /* 국가 선택 버튼 영역 */
@@ -287,7 +287,6 @@
       min-width: 0;
     }
 
-    /* 4위 이하 숫자 뱃지 박스 */
     .rank-badge {
       display: inline-grid;
       place-items: center;
@@ -301,7 +300,6 @@
       flex-shrink: 0;
     }
 
-    /* 1~3위 이모지 전용 (박스 없음) */
     .rank-medal {
       display: inline-grid;
       place-items: center;
@@ -359,13 +357,8 @@
       font-variant-numeric: tabular-nums;
     }
 
-    .car-max {
-      color: #38bdf8;
-    }
-
-    .car-tuning {
-      color: var(--accent);
-    }
+    .car-max { color: #38bdf8; }
+    .car-tuning { color: var(--accent); }
 
     .car-score-large {
       font-size: 22px;
@@ -386,7 +379,6 @@
       min-width: 0;
     }
 
-    /* 트랙 셀 배경색 투명하게 유지 */
     .track-cell {
       background: transparent;
       border: none;
@@ -428,7 +420,7 @@
       border-radius: 6px;
     }
 
-    /* ==== 모바일 및 태블릿 ==== */
+    /* ==== 태블릿 및 모바일 반응형 ==== */
     @media (max-width: 960px) {
       .metric-map { width: 42px; }
       .metric-body span.track-label { font-size: 10px; }
@@ -468,32 +460,38 @@
       .header-inner,
       main { width: min(100% - 12px, 1000px); }
       
-      /* 모바일에서는 타이틀과 탭 사이 간격을 20px로 넓힘 */
+      /* 모바일 전용 3단 레이아웃 설정 */
       .header-inner {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px 10px; /* 세로(행) 간격 20px */
-        padding: 12px 4px;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto auto;
+        gap: 10px 8px;
+        padding: 10px 4px;
       }
 
       .brand {
         grid-column: 1 / 2;
+        grid-row: 1 / 2;
         justify-self: start;
+        align-self: center;
       }
       
       .region-tabs {
         grid-column: 2 / 3;
+        grid-row: 1 / 2;
         justify-self: end;
+        align-self: center;
       }
       
       .nav-container {
         grid-column: 1 / 3;
+        grid-row: 2 / 4;
         justify-self: center;
+        width: 100%;
       }
       
       .tabs {
-        width: 150%;
-        max-width: 150%;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 2px;
@@ -502,8 +500,14 @@
       .tab {
         padding: 0 4px;
         font-size: 12px;
-        min-height: 28px;
+        min-height: 32px;
         text-align: center;
+      }
+
+      .state-tabs {
+        width: 100%;
+        display: flex;
+        justify-content: center;
       }
 
       .metric-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
@@ -517,6 +521,12 @@
       <div class="brand">
         <h1>Racing Master TIER</h1>
       </div>
+
+      <div class="region-tabs" aria-label="국가 선택">
+        <button class="region-btn active" data-region="kr" title="한국">🇰🇷</button>
+        <button class="region-btn" data-region="jp" title="일본">🇯🇵</button>
+        <button class="region-btn" data-region="us" title="미국">🇺🇸</button>
+      </div>
       
       <div class="nav-container">
         <nav class="tabs" aria-label="차량 클래스">
@@ -528,12 +538,6 @@
           <button class="state-tab" data-state="base" aria-selected="true">ECU 0</button>
           <button class="state-tab" data-state="full" aria-selected="false">ECU 5</button>
         </div>
-      </div>
-
-      <div class="region-tabs" aria-label="국가 선택">
-        <button class="region-btn active" data-region="kr" title="한국">🇰🇷</button>
-        <button class="region-btn" data-region="jp" title="일본">🇯🇵</button>
-        <button class="region-btn" data-region="us" title="미국">🇺🇸</button>
       </div>
     </div>
   </header>
