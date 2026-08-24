@@ -353,21 +353,21 @@
       "id": "car-1787479169826",
       "name": "300 SL Coupe '54",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "13332",
+      "maxPoint": 818,
       "imageName": "300SL54.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 98870,
+          "sicilia": 84552,
+          "indy_reverse": 100318,
+          "redbull_fiesta": 92420
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 91176,
+          "sicilia": 77759,
+          "indy_reverse": 91922,
+          "redbull_fiesta": 85818
         }
       }
     },
@@ -529,21 +529,21 @@
       "id": "car-1787479391354",
       "name": "Diablo SV '98",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 814,
       "imageName": "DIABLOSV98.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 98958,
+          "sicilia": 84105,
+          "indy_reverse": 99496,
+          "redbull_fiesta": 91385
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 92688,
+          "sicilia": 77801,
+          "indy_reverse": 92151,
+          "redbull_fiesta": 85952
         }
       }
     },
@@ -573,21 +573,21 @@
       "id": "car-1787479433305",
       "name": "GR86 '22",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "22232",
+      "maxPoint": 829,
       "imageName": "GR8622.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 95793,
+          "sicilia": 81860,
+          "indy_reverse": 98057,
+          "redbull_fiesta": 89939
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 89738,
+          "sicilia": 76357,
+          "indy_reverse": 90477,
+          "redbull_fiesta": 84802
         }
       }
     },
@@ -617,21 +617,21 @@
       "id": "car-1787479505540",
       "name": "Skyline GT-R '99",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 818,
       "imageName": "GTR3499.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 98202,
+          "sicilia": 85412,
+          "indy_reverse": 99220,
+          "redbull_fiesta": 91990
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 92038,
+          "sicilia": 77522,
+          "indy_reverse": 92668,
+          "redbull_fiesta": 85159
         }
       }
     },
@@ -749,21 +749,21 @@
       "id": "car-1787479701823",
       "name": "S2000 '09",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 798,
       "imageName": "S200009.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 102069,
+          "sicilia": 85338,
+          "indy_reverse": 102119,
+          "redbull_fiesta": 93788
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 102102,
+          "sicilia": 83534,
+          "indy_reverse": 100269,
+          "redbull_fiesta": 91874
         }
       }
     },
@@ -771,21 +771,21 @@
       "id": "car-1787479722332",
       "name": "Supra RZ '98",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 858,
       "imageName": "SUPRARZ98.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 97202,
+          "sicilia": 81223,
+          "indy_reverse": 95412,
+          "redbull_fiesta": 87113
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 90054,
+          "sicilia": 75637,
+          "indy_reverse": 89936,
+          "redbull_fiesta": 83161
         }
       }
     },
