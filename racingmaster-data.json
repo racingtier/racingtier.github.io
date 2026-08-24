@@ -832,6 +832,666 @@
           "redbull_fiesta": 120000
         }
       }
+    },
+    {
+      "id": "car-1787580796315",
+      "name": "570S Coupe '16",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "570S16.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580822841",
+      "name": "911 Carrera S Cabriolet '19",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "911CARRERA19.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580841136",
+      "name": "Corvette C7 '19",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "CORVETTEC719.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580859977",
+      "name": "Evora GT430 Sport '18",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "EVORA18.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580886291",
+      "name": "GR Supra '20 MF Ghost",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "GRSUPRAMF20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580905588",
+      "name": "GT-R '18",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "GTR18.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580924579",
+      "name": "M4 Coupe '17",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "M4COUPE17.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580946013",
+      "name": "MP4-12C Spider '12",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "MP412C12.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580979533",
+      "name": "Murcielago LP670-4 '10",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "MURCIELAGO10.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787580998152",
+      "name": "NSX-R '92",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "NSXR92.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581023099",
+      "name": "NSX-R '92 Initial D",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "NSXRD92.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581041308",
+      "name": "Panamera Turbo '20",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "PANAMERA20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581056819",
+      "name": "Reventon '08",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "REVENTON08.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581076634",
+      "name": "RS7 Sportback '20",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "RS720.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581114803",
+      "name": "SL 63 '22",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "SL6322.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581129187",
+      "name": "XJ220 '92",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "XJ22092.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581145156",
+      "name": "CCX '06",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "CCX06.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581164196",
+      "name": "MC20 Cielo '22",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "MC2022.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581180393",
+      "name": "Veyron Super Sport '10",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "VEYRON10.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581198535",
+      "name": "Shelby Mustang '20",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "SHELBY20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581253871",
+      "name": "IONIQ 5 N '24",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "IONIQ5N24.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581272129",
+      "name": "California '08",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "CALIFORNIA08.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581287858",
+      "name": "SLS AMG GT '12",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "SLSAMG12.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581308237",
+      "name": "3 Series M3 '11",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "M311.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581324384",
+      "name": "4C Spider '15",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "4CSPIDER15.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581342650",
+      "name": "F-Type Project 7 '16",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "FTYPE16.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581384952",
+      "name": "Giulia Quadrifoglio '17",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "GIULIA17.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581408521",
+      "name": "RS 4 Avant '24",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "RS424.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581430527",
+      "name": "Roma '20",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "ROMA20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787581452567",
+      "name": "Gallardo LP570-4 '11",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "GALLARDO11.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
     }
   ]
 }
