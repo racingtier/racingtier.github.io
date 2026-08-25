@@ -996,16 +996,16 @@
       "imageName": "MP412C12.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 93118,
+          "sicilia": 78623,
+          "indy_reverse": 93820,
+          "redbull_fiesta": 85028
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 86416,
+          "sicilia": 72840,
+          "indy_reverse": 146080,
+          "redbull_fiesta": 79463
         }
       }
     },
@@ -1282,16 +1282,16 @@
       "imageName": "IONIQ5N24.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 95583,
+          "sicilia": 80681,
+          "indy_reverse": 95567,
+          "redbull_fiesta": 86114
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 88634,
+          "sicilia": 73918,
+          "indy_reverse": 87487,
+          "redbull_fiesta": 80409
         }
       }
     },
