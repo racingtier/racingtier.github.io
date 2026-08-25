@@ -1497,8 +1497,8 @@
       "id": "car-1787581755590",
       "name": "720S Coupe '17",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 897,
       "imageName": "720S17.png",
       "records": {
         "base": {
@@ -1519,8 +1519,8 @@
       "id": "car-1787581776374",
       "name": "918 Spyder '15",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "13332",
+      "maxPoint": 972,
       "imageName": "91815.png",
       "records": {
         "base": {
@@ -1541,8 +1541,8 @@
       "id": "car-1787581790768",
       "name": "Agera RS '15",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "31132",
+      "maxPoint": 977,
       "imageName": "AGERA15.png",
       "records": {
         "base": {
@@ -1563,8 +1563,8 @@
       "id": "car-1787581809022",
       "name": "Centodieci '20",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "33332",
+      "maxPoint": 994,
       "imageName": "CENTODIECI20.png",
       "records": {
         "base": {
@@ -1585,8 +1585,8 @@
       "id": "car-1787581825574",
       "name": "Chiron '15",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "33232",
+      "maxPoint": 966,
       "imageName": "CHIRON15.png",
       "records": {
         "base": {
@@ -1607,8 +1607,8 @@
       "id": "car-1787581843919",
       "name": "CLK GTR '98",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "21132",
+      "maxPoint": 982,
       "imageName": "CLK98.png",
       "records": {
         "base": {
@@ -1629,8 +1629,8 @@
       "id": "car-1787581859322",
       "name": "Divo '21",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "33332",
+      "maxPoint": 1033,
       "imageName": "DIVO21.png",
       "records": {
         "base": {
@@ -1651,8 +1651,8 @@
       "id": "car-1787581904802",
       "name": "F8 Tributo '20",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "21112",
+      "maxPoint": 911,
       "imageName": "F820.png",
       "records": {
         "base": {
@@ -1673,8 +1673,8 @@
       "id": "car-1787581925670",
       "name": "Ford GT '17",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 945,
       "imageName": "GT17.png",
       "records": {
         "base": {
@@ -1695,8 +1695,8 @@
       "id": "car-1787581959860",
       "name": "AMG GT R Coupe '20",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23132",
+      "maxPoint": 956,
       "imageName": "GTRCOUPE20.png",
       "records": {
         "base": {
@@ -1717,8 +1717,8 @@
       "id": "car-1787581979841",
       "name": "Challenger Hellcat '18",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "21132",
+      "maxPoint": 930,
       "imageName": "HELLCAT18.png",
       "records": {
         "base": {
@@ -1739,8 +1739,8 @@
       "id": "car-1787582004059",
       "name": "Huayra BC '17",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "13132",
+      "maxPoint": 983,
       "imageName": "HUAYRA17.png",
       "records": {
         "base": {
@@ -1761,8 +1761,8 @@
       "id": "car-1787582021633",
       "name": "Jesko Attack '23",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "33232",
+      "maxPoint": 1045,
       "imageName": "JESKO23.png",
       "records": {
         "base": {
@@ -1783,8 +1783,8 @@
       "id": "car-1787582035049",
       "name": "LaFerrari '14",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "21232",
+      "maxPoint": 1022,
       "imageName": "LAFERRARI14.png",
       "records": {
         "base": {
@@ -1805,8 +1805,8 @@
       "id": "car-1787582051985",
       "name": "M8 GTE '19",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 940,
       "imageName": "M819.png",
       "records": {
         "base": {
@@ -1827,8 +1827,8 @@
       "id": "car-1787582069292",
       "name": "Monza SP1 '19",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 1020,
       "imageName": "MONZA19.png",
       "records": {
         "base": {
@@ -1849,8 +1849,8 @@
       "id": "car-1787582085726",
       "name": "ONE:1 '14",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "31232",
+      "maxPoint": 1018,
       "imageName": "ONE14.png",
       "records": {
         "base": {
@@ -1871,8 +1871,8 @@
       "id": "car-1787582103044",
       "name": "P1 '15",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 989,
       "imageName": "P115.png",
       "records": {
         "base": {
@@ -1893,8 +1893,8 @@
       "id": "car-1787582124934",
       "name": "R8 V10 RWD Spyder '20",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 930,
       "imageName": "R820.png",
       "records": {
         "base": {
@@ -1915,8 +1915,8 @@
       "id": "car-1787582149926",
       "name": "Revuelto '23",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 1030,
       "imageName": "REVUELTO23.png",
       "records": {
         "base": {
@@ -1937,8 +1937,8 @@
       "id": "car-1787582168640",
       "name": "SF90 Stradale '20",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 1001,
       "imageName": "SF9020.png",
       "records": {
         "base": {
@@ -1959,8 +1959,8 @@
       "id": "car-1787582187577",
       "name": "Aventador SVJ '19",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 960,
       "imageName": "SVJ19.png",
       "records": {
         "base": {
@@ -1981,8 +1981,8 @@
       "id": "car-1787582205474",
       "name": "Valhalla Concept '19",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 982,
       "imageName": "VALHALLA19.png",
       "records": {
         "base": {
@@ -2003,8 +2003,8 @@
       "id": "car-1787582222743",
       "name": "Veneno '13",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "13332",
+      "maxPoint": 1033,
       "imageName": "VENENO13.png",
       "records": {
         "base": {
@@ -2025,8 +2025,8 @@
       "id": "car-1787582241196",
       "name": "N Vision 74 '22",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23332",
+      "maxPoint": 1020,
       "imageName": "VISION22.png",
       "records": {
         "base": {
@@ -2047,8 +2047,8 @@
       "id": "car-1787582258254",
       "name": "Vulcan '17",
       "class": "extreme",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "13232",
+      "maxPoint": 1003,
       "imageName": "VULCAN17.png",
       "records": {
         "base": {
@@ -2150,6 +2150,72 @@
           "sicilia": 74620,
           "indy_reverse": 89019,
           "redbull_fiesta": 80705
+        }
+      }
+    },
+    {
+      "id": "car-1787672196712",
+      "name": "EVIJA '23",
+      "class": "extreme",
+      "tuning": "33332",
+      "maxPoint": 1045,
+      "imageName": "EVIJA23.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787672235144",
+      "name": "TSR S '18",
+      "class": "extreme",
+      "tuning": "22132",
+      "maxPoint": 1032,
+      "imageName": "TSRS18.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
+    },
+    {
+      "id": "car-1787672268218",
+      "name": "NSX '20",
+      "class": "extreme",
+      "tuning": "13332",
+      "maxPoint": 964,
+      "imageName": "NSX20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
         }
       }
     }
