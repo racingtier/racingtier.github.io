@@ -2064,6 +2064,94 @@
           "redbull_fiesta": 120000
         }
       }
+    },
+    {
+      "id": "car-1787643643955",
+      "name": "Countach LP400 S '78",
+      "class": "standard",
+      "tuning": "23232",
+      "maxPoint": 860,
+      "imageName": "",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 94192,
+          "sicilia": 79747,
+          "indy_reverse": 95516,
+          "redbull_fiesta": 87736
+        },
+        "full": {
+          "tokyo_skytree_half": 86964,
+          "sicilia": 74127,
+          "indy_reverse": 87804,
+          "redbull_fiesta": 81840
+        }
+      }
+    },
+    {
+      "id": "car-1787643678905",
+      "name": "718 Cayman GT4 RS '22",
+      "class": "performance",
+      "tuning": "13232",
+      "maxPoint": 952,
+      "imageName": "",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 89972,
+          "sicilia": 75572,
+          "indy_reverse": 90840,
+          "redbull_fiesta": 83012
+        },
+        "full": {
+          "tokyo_skytree_half": 83701,
+          "sicilia": 70425,
+          "indy_reverse": 84151,
+          "redbull_fiesta": 77900
+        }
+      }
+    },
+    {
+      "id": "car-1787643707747",
+      "name": "LANCER Evo X GSR '10",
+      "class": "performance",
+      "tuning": "23332",
+      "maxPoint": 879,
+      "imageName": "",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 94400,
+          "sicilia": 80156,
+          "indy_reverse": 93860,
+          "redbull_fiesta": 86772
+        },
+        "full": {
+          "tokyo_skytree_half": 86539,
+          "sicilia": 73433,
+          "indy_reverse": 87505,
+          "redbull_fiesta": 80219
+        }
+      }
+    },
+    {
+      "id": "car-1787643735948",
+      "name": "WRX STI '19",
+      "class": "performance",
+      "tuning": "23332",
+      "maxPoint": 869,
+      "imageName": "",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 96953,
+          "sicilia": 81322,
+          "indy_reverse": 95865,
+          "redbull_fiesta": 88736
+        },
+        "full": {
+          "tokyo_skytree_half": 90073,
+          "sicilia": 74620,
+          "indy_reverse": 89019,
+          "redbull_fiesta": 80705
+        }
+      }
     }
   ]
 }
