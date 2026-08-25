@@ -1018,16 +1018,16 @@
       "imageName": "MURCIELAGO10.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 89457,
+          "sicilia": 75527,
+          "indy_reverse": 89992,
+          "redbull_fiesta": 82709
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 81333,
+          "sicilia": 69116,
+          "indy_reverse": 82275,
+          "redbull_fiesta": 76894
         }
       }
     },
