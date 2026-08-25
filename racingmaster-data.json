@@ -331,21 +331,21 @@
       "id": "car-1787479146349",
       "name": "33 Stradale '67",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "21232",
+      "maxPoint": 816,
       "imageName": "33STRADALE67.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 97108,
+          "sicilia": 83638,
+          "indy_reverse": 99840,
+          "redbull_fiesta": 91526
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 91259,
+          "sicilia": 76963,
+          "indy_reverse": 91912,
+          "redbull_fiesta": 84830
         }
       }
     },
