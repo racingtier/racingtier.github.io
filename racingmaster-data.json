@@ -705,21 +705,21 @@
       "id": "car-1787479658341",
       "name": "3 Series M3 '01",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "13232",
+      "maxPoint": 845,
       "imageName": "M301.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 98124,
+          "sicilia": 84209,
+          "indy_reverse": 100746,
+          "redbull_fiesta": 91281
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 92395,
+          "sicilia": 78286,
+          "indy_reverse": 92470,
+          "redbull_fiesta": 85301
         }
       }
     },
@@ -1216,16 +1216,16 @@
       "imageName": "MC2022.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 90268,
+          "sicilia": 75933,
+          "indy_reverse": 91552,
+          "redbull_fiesta": 83819
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 82270,
+          "sicilia": 69998,
+          "indy_reverse": 82753,
+          "redbull_fiesta": 77348
         }
       }
     },
@@ -1370,16 +1370,16 @@
       "imageName": "4CSPIDER15.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 91716,
+          "sicilia": 78210,
+          "indy_reverse": 92288,
+          "redbull_fiesta": 86302
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 85388,
+          "sicilia": 73111,
+          "indy_reverse": 87349,
+          "redbull_fiesta": 80924
         }
       }
     },
@@ -1458,16 +1458,16 @@
       "imageName": "ROMA20.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 91172,
+          "sicilia": 77776,
+          "indy_reverse": 91507,
+          "redbull_fiesta": 84842
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 85468,
+          "sicilia": 71961,
+          "indy_reverse": 86417,
+          "redbull_fiesta": 79463
         }
       }
     },
