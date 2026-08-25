@@ -2071,7 +2071,7 @@
       "class": "standard",
       "tuning": "23232",
       "maxPoint": 860,
-      "imageName": "",
+      "imageName": "COUNTACH78.png",
       "records": {
         "base": {
           "tokyo_skytree_half": 94192,
@@ -2093,7 +2093,7 @@
       "class": "performance",
       "tuning": "13232",
       "maxPoint": 952,
-      "imageName": "",
+      "imageName": "718CAYMAN22.png",
       "records": {
         "base": {
           "tokyo_skytree_half": 89972,
@@ -2115,7 +2115,7 @@
       "class": "performance",
       "tuning": "23332",
       "maxPoint": 879,
-      "imageName": "",
+      "imageName": "LANCERX10.png",
       "records": {
         "base": {
           "tokyo_skytree_half": 94400,
@@ -2137,7 +2137,7 @@
       "class": "performance",
       "tuning": "23332",
       "maxPoint": 869,
-      "imageName": "",
+      "imageName": "WRXSTI19.png",
       "records": {
         "base": {
           "tokyo_skytree_half": 96953,
