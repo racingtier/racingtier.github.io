@@ -460,7 +460,7 @@
       .header-inner,
       main { width: min(100% - 12px, 1000px); }
       
-      /* 모바일 전용 3단 레이아웃 설정 (1단: 타이틀+국기, 2단: 클래스탭, 3단: ECU탭) */
+      /* 모바일 전용 3단 레이아웃 설정 */
       .header-inner {
         display: grid;
         grid-template-columns: 1fr auto;
@@ -541,10 +541,10 @@
         </div>
       </div>
       
-      <div class="region-tabs" aria-label="국가 선택">
-        <button class="region-btn active" data-region="kr" title="한국">🇰🇷</button>
-        <button class="region-btn" data-region="jp" title="일본">🇯🇵</button>
-        <button class="region-btn" data-region="us" title="미국">🇺🇸</button>
+      <div class="region-tabs" aria-label="언어 선택">
+        <button class="region-btn" data-region="kr" title="한국어">🇰🇷</button>
+        <button class="region-btn" data-region="jp" title="日本語">🇯🇵</button>
+        <button class="region-btn" data-region="en" title="English">🇺🇸</button>
       </div>
     </div>
   </header>
@@ -555,7 +555,70 @@
   </main>
 
   <script>
-    const state = { class: "standard", breakthrough: "base", region: "kr", data: null };
+    // 언어별 사전 데이터 (i18n)
+    const i18n = {
+      kr: {
+        tune: "튜닝",
+        ecuEfficiency: "돌파효율",
+        classes: {
+          standard: "스탠다드",
+          performance: "퍼포먼스",
+          extreme: "익스트림"
+        },
+        getTrack: (originalName) => {
+          if (originalName.includes("스카이트리")) return { full: "도쿄 스카이트리 하프", short: "스카이트리 하프" };
+          if (originalName.includes("진주해안")) return { full: "시칠리아 진주해안", short: "시칠리아 진주해안" };
+          if (originalName.includes("클래식")) return { full: "인디애나폴리스 클래식 서킷 리버스", short: "클래식 서킷 리버스" };
+          if (originalName.includes("피에스타")) return { full: "레드불 링 서킷 피에스타 서킷", short: "피에스타 서킷" };
+          return { full: originalName, short: originalName };
+        }
+      },
+      en: {
+        tune: "Tune",
+        ecuEfficiency: "Boost",
+        classes: {
+          standard: "Standard",
+          performance: "Sports",
+          extreme: "Extreme"
+        },
+        getTrack: (originalName) => {
+          if (originalName.includes("스카이트리")) return { full: "Tokyo Skytree / Half", short: "Skytree / Half" };
+          if (originalName.includes("진주해안")) return { full: "Sicily Island Pearl Beach", short: "Pearl Beach" };
+          if (originalName.includes("클래식")) return { full: "Indianapolis Classic / Reverse", short: "Indy Classic / Reverse" };
+          if (originalName.includes("피에스타")) return { full: "Red Bull Ring Fiesta Circuit", short: "Fiesta Circuit" };
+          return { full: originalName, short: originalName };
+        }
+      },
+      jp: {
+        tune: "チューン",
+        ecuEfficiency: "強化効率",
+        classes: {
+          standard: "スポーツ",
+          performance: "パフォーマンス",
+          extreme: "レーシング"
+        },
+        getTrack: (originalName) => {
+          if (originalName.includes("스카이트리")) return { full: "東京 スカイツリー/ハーフ", short: "スカイツリー/ハーフ" };
+          if (originalName.includes("진주해안")) return { full: "シチリア島 パールビーチ", short: "パールビーチ" };
+          if (originalName.includes("클래식")) return { full: "インディアナポリス クラシック/逆回り", short: "クラシック/逆回り" };
+          if (originalName.includes("피에스타")) return { full: "レッドブル・リンク・カーニバル", short: "カーニバル" };
+          return { full: originalName, short: originalName };
+        }
+      }
+    };
+
+    // 접속 시 브라우저 언어 자동 감지 함수
+    function getInitialRegion() {
+      const saved = localStorage.getItem("rm_region");
+      if (saved && ["kr", "jp", "en"].includes(saved)) return saved;
+
+      const lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      if (lang.startsWith("ko")) return "kr";
+      if (lang.startsWith("ja")) return "jp";
+      return "en";
+    }
+
+    const state = { class: "standard", breakthrough: "base", region: getInitialRegion(), data: null };
     const els = {
       classTabs: document.querySelectorAll(".tab"),
       stateTabs: document.querySelectorAll(".state-tab"),
@@ -595,9 +658,9 @@
       });
       els.regionBtns.forEach((button) => {
         button.addEventListener("click", () => {
-          els.regionBtns.forEach(btn => btn.classList.remove("active"));
-          button.classList.add("active");
           state.region = button.dataset.region;
+          localStorage.setItem("rm_region", state.region);
+          render();
         });
       });
     }
@@ -610,8 +673,29 @@
     }
 
     function syncTabs() {
-      els.classTabs.forEach((button) => button.setAttribute("aria-selected", String(button.dataset.class === state.class)));
-      els.stateTabs.forEach((button) => button.setAttribute("aria-selected", String(button.dataset.state === state.breakthrough)));
+      const currentLang = i18n[state.region] || i18n.kr;
+
+      // 차량 클래스 탭 텍스트 언어별 전환
+      els.classTabs.forEach((button) => {
+        const cls = button.dataset.class;
+        button.setAttribute("aria-selected", String(cls === state.class));
+        if (currentLang.classes[cls]) {
+          button.textContent = currentLang.classes[cls];
+        }
+      });
+
+      // ECU 상태 탭 텍스트 언어별 전환 (Boost / 強化効率 / 돌파효율)
+      els.stateTabs.forEach((button) => {
+        button.setAttribute("aria-selected", String(button.dataset.state === state.breakthrough));
+        if (button.dataset.state === "efficiency") {
+          button.textContent = currentLang.ecuEfficiency;
+        }
+      });
+
+      // 국기/언어 버튼 활성화 표시
+      els.regionBtns.forEach((button) => {
+        button.classList.toggle("active", button.dataset.region === state.region);
+      });
     }
 
     function getRankedCars() {
@@ -681,19 +765,24 @@
         return;
       }
       const best = getBestRecords(cars);
+      const currentLang = i18n[state.region] || i18n.kr;
+
       els.metrics.innerHTML = state.data.tracks.map((track, idx) => {
         const bestCar = state.breakthrough === "efficiency"
           ? cars.find((car) => car.scoreData.efficiencies[track.id] === best[track.id])
           : cars.find((car) => car.records[state.breakthrough][track.id] === best[track.id]);
         const mapNum = idx + 1;
         const mapImgSrc = `images/map/map${mapNum}.png`;
+        
+        const trackNames = currentLang.getTrack(track.name);
+
         return `
           <article class="metric">
             <div class="metric-map">
-              <img src="${mapImgSrc}" alt="${escapeHtml(track.name)}">
+              <img src="${mapImgSrc}" alt="${escapeHtml(trackNames.full)}">
             </div>
             <div class="metric-body">
-              <span class="track-label">${escapeHtml(track.name)}</span>
+              <span class="track-label">${escapeHtml(trackNames.full)}</span>
               <strong>${state.breakthrough === "efficiency" ? formatPercent(best[track.id]) : formatTime(best[track.id])}</strong>
               <span class="track-car">${bestCar ? escapeHtml(bestCar.name) : ""}</span>
             </div>
@@ -710,6 +799,7 @@
       
       const best = getBestRecords(cars);
       const tracks = state.data.tracks;
+      const currentLang = i18n[state.region] || i18n.kr;
 
       els.cardList.innerHTML = cars.map((car, index) => {
         const rank = index + 1;
@@ -730,20 +820,11 @@
           const efficiency = isEfficiency ? car.scoreData.efficiencies[track.id] : null;
           const isBest = isEfficiency ? efficiency === best[track.id] : recordMs === best[track.id];
           
-          let trackDisplayName = track.name;
-          if (trackDisplayName.includes("스카이트리")) {
-            trackDisplayName = "스카이트리 하프";
-          } else if (trackDisplayName.includes("진주해안")) {
-            trackDisplayName = "시칠리아 진주해안";
-          } else if (trackDisplayName.includes("클래식")) {
-            trackDisplayName = "클래식 서킷 리버스";
-          } else if (trackDisplayName.includes("피에스타")) {
-            trackDisplayName = "피에스타 서킷";
-          }
+          const trackNames = currentLang.getTrack(track.name);
 
           return `
             <div class="track-cell ${isBest ? 'best-record' : ''}">
-              <span class="track-name" title="${escapeHtml(track.name)}">${escapeHtml(trackDisplayName)}</span>
+              <span class="track-name" title="${escapeHtml(trackNames.full)}">${escapeHtml(trackNames.short)}</span>
               <span class="track-time">${isEfficiency ? formatPercent(efficiency) : formatTime(recordMs)}</span>
             </div>
           `;
@@ -760,7 +841,7 @@
                 <p class="car-name" title="${escapeHtml(car.name)}">${escapeHtml(car.name)}</p>
                 <div class="car-sub-info">
                   <span class="car-max">MAX : ${maxPointVal}</span>
-                  <span class="car-tuning">튜닝: ${tuningVal}</span>
+                  <span class="car-tuning">${currentLang.tune}: ${tuningVal}</span>
                 </div>
               </div>
               <div class="car-score-large">${scoreVal}</div>
