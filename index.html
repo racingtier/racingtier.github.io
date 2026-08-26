@@ -505,9 +505,15 @@
       }
 
       .state-tabs {
-        width: 100%;
-        display: flex;
+        width: auto;
+        display: inline-flex;
         justify-content: center;
+      }
+
+      .state-tab {
+        min-height: 28px;
+        padding: 0 10px;
+        font-size: 11px;
       }
 
       .metric-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
