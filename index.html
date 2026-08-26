@@ -531,6 +531,7 @@
         <div class="state-tabs" aria-label="돌파 상태">
           <button class="state-tab" data-state="base" aria-selected="true">ECU 0</button>
           <button class="state-tab" data-state="full" aria-selected="false">ECU 5</button>
+          <button class="state-tab" data-state="efficiency" aria-selected="false">돌파효율</button>
         </div>
       </div>
       
@@ -610,6 +611,11 @@
     function getRankedCars() {
       const cars = state.data.cars.filter((car) => car.class === state.class);
       if (!cars.length) return [];
+      if (state.breakthrough === "efficiency") {
+        return cars
+          .map((car) => ({ ...car, scoreData: calculateEfficiencyScore(car) }))
+          .sort((a, b) => b.scoreData.averageEfficiency - a.scoreData.averageEfficiency || a.name.localeCompare(b.name, "ko"));
+      }
       const bestRecords = getBestRecords(cars);
       return cars
         .map((car) => ({ ...car, scoreData: calculateScore(car, bestRecords) }))
@@ -617,6 +623,9 @@
     }
 
     function getBestRecords(cars) {
+      if (state.breakthrough === "efficiency") {
+        return getBestEfficiencies(cars);
+      }
       return state.data.tracks.reduce((acc, track) => {
         acc[track.id] = Math.min(...cars.map((car) => car.records[state.breakthrough][track.id]));
         return acc;
@@ -633,6 +642,33 @@
       return { totalGap, score };
     }
 
+    function calculateEfficiencyScore(car) {
+      const efficiencies = getCarEfficiencies(car);
+      const totalEfficiency = state.data.tracks.reduce((sum, track) => sum + efficiencies[track.id], 0);
+      const averageEfficiency = totalEfficiency / state.data.tracks.length;
+      return {
+        efficiencies,
+        averageEfficiency,
+        score: `${averageEfficiency.toFixed(2)}%`
+      };
+    }
+
+    function getCarEfficiencies(car) {
+      return state.data.tracks.reduce((acc, track) => {
+        const baseRecord = car.records.base[track.id];
+        const fullRecord = car.records.full[track.id];
+        acc[track.id] = baseRecord > 0 ? ((baseRecord - fullRecord) / baseRecord) * 100 : 0;
+        return acc;
+      }, {});
+    }
+
+    function getBestEfficiencies(cars) {
+      return state.data.tracks.reduce((acc, track) => {
+        acc[track.id] = Math.max(...cars.map((car) => getCarEfficiencies(car)[track.id]));
+        return acc;
+      }, {});
+    }
+
     function renderMetrics(cars) {
       if (!cars.length) {
         els.metrics.innerHTML = "";
@@ -640,7 +676,9 @@
       }
       const best = getBestRecords(cars);
       els.metrics.innerHTML = state.data.tracks.map((track, idx) => {
-        const bestCar = cars.find((car) => car.records[state.breakthrough][track.id] === best[track.id]);
+        const bestCar = state.breakthrough === "efficiency"
+          ? cars.find((car) => car.scoreData.efficiencies[track.id] === best[track.id])
+          : cars.find((car) => car.records[state.breakthrough][track.id] === best[track.id]);
         const mapNum = idx + 1;
         const mapImgSrc = `images/map/map${mapNum}.png`;
         return `
@@ -650,7 +688,7 @@
             </div>
             <div class="metric-body">
               <span class="track-label">${escapeHtml(track.name)}</span>
-              <strong>${formatTime(best[track.id])}</strong>
+              <strong>${state.breakthrough === "efficiency" ? formatPercent(best[track.id]) : formatTime(best[track.id])}</strong>
               <span class="track-car">${bestCar ? escapeHtml(bestCar.name) : ""}</span>
             </div>
           </article>
@@ -681,8 +719,10 @@
         const scoreVal = car.scoreData.score;
 
         const trackBlocksHtml = tracks.map((track) => {
-          const recordMs = car.records[state.breakthrough][track.id];
-          const isBest = recordMs === best[track.id];
+          const isEfficiency = state.breakthrough === "efficiency";
+          const recordMs = isEfficiency ? null : car.records[state.breakthrough][track.id];
+          const efficiency = isEfficiency ? car.scoreData.efficiencies[track.id] : null;
+          const isBest = isEfficiency ? efficiency === best[track.id] : recordMs === best[track.id];
           
           let trackDisplayName = track.name;
           if (trackDisplayName.includes("스카이트리")) {
@@ -698,7 +738,7 @@
           return `
             <div class="track-cell ${isBest ? 'best-record' : ''}">
               <span class="track-name" title="${escapeHtml(track.name)}">${escapeHtml(trackDisplayName)}</span>
-              <span class="track-time">${formatTime(recordMs)}</span>
+              <span class="track-time">${isEfficiency ? formatPercent(efficiency) : formatTime(recordMs)}</span>
             </div>
           `;
         }).join("");
@@ -732,6 +772,10 @@
       const seconds = Math.floor((ms % 60000) / 1000);
       const milliseconds = ms % 1000;
       return `${minutes}:${String(seconds).padStart(2, "0")}.${String(milliseconds).padStart(3, "0")}`;
+    }
+
+    function formatPercent(value) {
+      return `${value.toFixed(2)}%`;
     }
 
     function imageSrc(car) {
