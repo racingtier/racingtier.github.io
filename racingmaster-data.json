@@ -815,21 +815,21 @@
       "id": "car-1787479778382",
       "name": "250 GTO '62",
       "class": "standard",
-      "tuning": "00000",
-      "maxPoint": 0,
+      "tuning": "23232",
+      "maxPoint": 858,
       "imageName": "250GTO62.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 95135,
+          "sicilia": 80335,
+          "indy_reverse": 96126,
+          "redbull_fiesta": 88201
         },
         "full": {
-          "tokyo_skytree_half": 120000,
-          "sicilia": 120000,
-          "indy_reverse": 120000,
-          "redbull_fiesta": 120000
+          "tokyo_skytree_half": 89020,
+          "sicilia": 76378,
+          "indy_reverse": 89657,
+          "redbull_fiesta": 84220
         }
       }
     },
