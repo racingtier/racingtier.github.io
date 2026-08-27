@@ -939,7 +939,7 @@
           "tokyo_skytree_half": 82545,
           "sicilia": 69754,
           "indy_reverse": 83255,
-          "redbull_fiesta": 77346
+          "redbull_fiesta": 76776
         }
       }
     },
@@ -2229,15 +2229,15 @@
       "records": {
         "base": {
           "tokyo_skytree_half": 88516,
-          "sicilia": 77240,
+          "sicilia": 75978,
           "indy_reverse": 90876,
           "redbull_fiesta": 83938
         },
         "full": {
-          "tokyo_skytree_half": 82491,
+          "tokyo_skytree_half": 82467,
           "sicilia": 70468,
           "indy_reverse": 83084,
-          "redbull_fiesta": 78021
+          "redbull_fiesta": 76828
         }
       }
     }
