@@ -2218,6 +2218,28 @@
           "redbull_fiesta": 76206
         }
       }
+    },
+    {
+      "id": "car-1787789030862",
+      "name": "GT-R Nismo '20 MF Ghost",
+      "class": "performance",
+      "tuning": "00000",
+      "maxPoint": 0,
+      "imageName": "GTRNISMO20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        },
+        "full": {
+          "tokyo_skytree_half": 120000,
+          "sicilia": 120000,
+          "indy_reverse": 120000,
+          "redbull_fiesta": 120000
+        }
+      }
     }
   ]
 }
