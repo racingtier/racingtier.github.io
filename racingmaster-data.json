@@ -2229,13 +2229,13 @@
       "records": {
         "base": {
           "tokyo_skytree_half": 88516,
-          "sicilia": 77247,
-          "indy_reverse": 91202,
+          "sicilia": 77240,
+          "indy_reverse": 90876,
           "redbull_fiesta": 83938
         },
         "full": {
           "tokyo_skytree_half": 82491,
-          "sicilia": 70542,
+          "sicilia": 70468,
           "indy_reverse": 83084,
           "redbull_fiesta": 78021
         }
