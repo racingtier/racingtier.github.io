@@ -930,16 +930,16 @@
       "imageName": "GRSUPRAMF20.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 88590,
+          "tokyo_skytree_half": 87438,
           "sicilia": 73838,
-          "indy_reverse": 88839,
-          "redbull_fiesta": 82258
+          "indy_reverse": 88196,
+          "redbull_fiesta": 81929
         },
         "full": {
-          "tokyo_skytree_half": 82545,
-          "sicilia": 69754,
+          "tokyo_skytree_half": 81654,
+          "sicilia": 69395,
           "indy_reverse": 83255,
-          "redbull_fiesta": 76776
+          "redbull_fiesta": 76571
         }
       }
     },
@@ -2165,7 +2165,7 @@
           "tokyo_skytree_half": 83860,
           "sicilia": 69736,
           "indy_reverse": 83557,
-          "redbull_fiesta": 76834
+          "redbull_fiesta": 76383
         },
         "full": {
           "tokyo_skytree_half": 77581,
@@ -2221,22 +2221,22 @@
     },
     {
       "id": "car-1787789030862",
-      "name": "(TEST) GT-R Nismo '20 MF Ghost",
+      "name": "GT-R Nismo '20 MF Ghost",
       "class": "performance",
       "tuning": "21332",
       "maxPoint": 982,
       "imageName": "GTRNISMO20.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 88516,
-          "sicilia": 75978,
-          "indy_reverse": 90876,
-          "redbull_fiesta": 83938
+          "tokyo_skytree_half": 86891,
+          "sicilia": 74751,
+          "indy_reverse": 88392,
+          "redbull_fiesta": 81324
         },
         "full": {
-          "tokyo_skytree_half": 82467,
-          "sicilia": 70468,
-          "indy_reverse": 83084,
+          "tokyo_skytree_half": 81382,
+          "sicilia": 69354,
+          "indy_reverse": 82484,
           "redbull_fiesta": 76828
         }
       }
