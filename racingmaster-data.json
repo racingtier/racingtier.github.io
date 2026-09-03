@@ -28,16 +28,16 @@
       "imageName": "GT8613.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 95598,
-          "sicilia": 80811,
-          "indy_reverse": 95650,
-          "redbull_fiesta": 87974
+          "tokyo_skytree_half": 93995,
+          "sicilia": 80386,
+          "indy_reverse": 95551,
+          "redbull_fiesta": 87821
         },
         "full": {
-          "tokyo_skytree_half": 88291,
-          "sicilia": 75826,
-          "indy_reverse": 91412,
-          "redbull_fiesta": 84535
+          "tokyo_skytree_half": 87957,
+          "sicilia": 74881,
+          "indy_reverse": 89131,
+          "redbull_fiesta": 82211
         }
       }
     },
@@ -1041,15 +1041,15 @@
       "records": {
         "base": {
           "tokyo_skytree_half": 94515,
-          "sicilia": 81056,
+          "sicilia": 80099,
           "indy_reverse": 98772,
-          "redbull_fiesta": 90242
+          "redbull_fiesta": 86361
         },
         "full": {
-          "tokyo_skytree_half": 87103,
+          "tokyo_skytree_half": 84964,
           "sicilia": 72141,
           "indy_reverse": 85608,
-          "redbull_fiesta": 78741
+          "redbull_fiesta": 78275
         }
       }
     },
@@ -2165,13 +2165,13 @@
           "tokyo_skytree_half": 83860,
           "sicilia": 69736,
           "indy_reverse": 83557,
-          "redbull_fiesta": 76383
+          "redbull_fiesta": 76113
         },
         "full": {
           "tokyo_skytree_half": 77581,
           "sicilia": 65369,
           "indy_reverse": 77850,
-          "redbull_fiesta": 71684
+          "redbull_fiesta": 71551
         }
       }
     },
