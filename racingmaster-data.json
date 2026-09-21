@@ -2240,6 +2240,28 @@
           "redbull_fiesta": 76828
         }
       }
+    },
+    {
+      "id": "car-1789967532421",
+      "name": "Regera '16",
+      "class": "extreme",
+      "tuning": "31232",
+      "maxPoint": 1042,
+      "imageName": "REGERA16.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 85326,
+          "sicilia": 71168,
+          "indy_reverse": 85789,
+          "redbull_fiesta": 79990
+        },
+        "full": {
+          "tokyo_skytree_half": 79223,
+          "sicilia": 65840,
+          "indy_reverse": 79008,
+          "redbull_fiesta": 71868
+        }
+      }
     }
   ]
 }
