@@ -2252,14 +2252,14 @@
         "base": {
           "tokyo_skytree_half": 85326,
           "sicilia": 71168,
-          "indy_reverse": 85789,
-          "redbull_fiesta": 79990
+          "indy_reverse": 85234,
+          "redbull_fiesta": 77440
         },
         "full": {
-          "tokyo_skytree_half": 79223,
-          "sicilia": 65840,
-          "indy_reverse": 79008,
-          "redbull_fiesta": 71868
+          "tokyo_skytree_half": 78820,
+          "sicilia": 65290,
+          "indy_reverse": 78630,
+          "redbull_fiesta": 71449
         }
       }
     }
