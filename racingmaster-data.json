@@ -710,15 +710,15 @@
       "imageName": "M301.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 98124,
-          "sicilia": 84209,
-          "indy_reverse": 100746,
+          "tokyo_skytree_half": 97304,
+          "sicilia": 82452,
+          "indy_reverse": 99373,
           "redbull_fiesta": 91281
         },
         "full": {
-          "tokyo_skytree_half": 92395,
-          "sicilia": 78286,
-          "indy_reverse": 92470,
+          "tokyo_skytree_half": 89157,
+          "sicilia": 76501,
+          "indy_reverse": 89859,
           "redbull_fiesta": 85301
         }
       }
@@ -1305,13 +1305,13 @@
       "records": {
         "base": {
           "tokyo_skytree_half": 91920,
-          "sicilia": 77551,
-          "indy_reverse": 92832,
+          "sicilia": 76698,
+          "indy_reverse": 92128,
           "redbull_fiesta": 84636
         },
         "full": {
-          "tokyo_skytree_half": 86458,
-          "sicilia": 72468,
+          "tokyo_skytree_half": 85404,
+          "sicilia": 71574,
           "indy_reverse": 85985,
           "redbull_fiesta": 78400
         }
@@ -2260,6 +2260,50 @@
           "sicilia": 65290,
           "indy_reverse": 78630,
           "redbull_fiesta": 71449
+        }
+      }
+    },
+    {
+      "id": "car-1791769658212",
+      "name": "911 GT2RS '18",
+      "class": "extreme",
+      "tuning": "23332",
+      "maxPoint": 1044,
+      "imageName": "911GT2RS18.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 85830,
+          "sicilia": 71886,
+          "indy_reverse": 85809,
+          "redbull_fiesta": 78312
+        },
+        "full": {
+          "tokyo_skytree_half": 78344,
+          "sicilia": 66039,
+          "indy_reverse": 78878,
+          "redbull_fiesta": 73369
+        }
+      }
+    },
+    {
+      "id": "car-1791769838158",
+      "name": "Zonda Cinque '11",
+      "class": "performance",
+      "tuning": "13332",
+      "maxPoint": 996,
+      "imageName": "ZONDA11.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 87433,
+          "sicilia": 73645,
+          "indy_reverse": 87389,
+          "redbull_fiesta": 82383
+        },
+        "full": {
+          "tokyo_skytree_half": 80334,
+          "sicilia": 69388,
+          "indy_reverse": 81032,
+          "redbull_fiesta": 76288
         }
       }
     }
