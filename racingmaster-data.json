@@ -2272,16 +2272,16 @@
       "imageName": "911GT2RS18.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 85830,
-          "sicilia": 71886,
-          "indy_reverse": 85809,
+          "tokyo_skytree_half": 84956,
+          "sicilia": 71122,
+          "indy_reverse": 85109,
           "redbull_fiesta": 78312
         },
         "full": {
-          "tokyo_skytree_half": 78344,
-          "sicilia": 66039,
-          "indy_reverse": 78878,
-          "redbull_fiesta": 73369
+          "tokyo_skytree_half": 78191,
+          "sicilia": 65578,
+          "indy_reverse": 77814,
+          "redbull_fiesta": 72447
         }
       }
     },
@@ -2294,16 +2294,38 @@
       "imageName": "ZONDA11.png",
       "records": {
         "base": {
-          "tokyo_skytree_half": 87433,
+          "tokyo_skytree_half": 86253,
           "sicilia": 73645,
           "indy_reverse": 87389,
-          "redbull_fiesta": 82383
+          "redbull_fiesta": 81941
         },
         "full": {
-          "tokyo_skytree_half": 80334,
-          "sicilia": 69388,
+          "tokyo_skytree_half": 80208,
+          "sicilia": 68722,
           "indy_reverse": 81032,
-          "redbull_fiesta": 76288
+          "redbull_fiesta": 75900
+        }
+      }
+    },
+    {
+      "id": "car-1792842884767",
+      "name": "DATSUN 240Z '71",
+      "class": "standard",
+      "tuning": "23332",
+      "maxPoint": 857,
+      "imageName": "240Z71.PNG",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 99048,
+          "sicilia": 82005,
+          "indy_reverse": 98414,
+          "redbull_fiesta": 91658
+        },
+        "full": {
+          "tokyo_skytree_half": 88369,
+          "sicilia": 75682,
+          "indy_reverse": 88819,
+          "redbull_fiesta": 83791
         }
       }
     }
