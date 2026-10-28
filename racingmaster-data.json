@@ -360,7 +360,7 @@
         "base": {
           "tokyo_skytree_half": 98870,
           "sicilia": 84552,
-          "indy_reverse": 100318,
+          "indy_reverse": 100276,
           "redbull_fiesta": 92420
         },
         "full": {
@@ -2060,7 +2060,7 @@
         "full": {
           "tokyo_skytree_half": 81984,
           "sicilia": 68267,
-          "indy_reverse": 81557,
+          "indy_reverse": 81352,
           "redbull_fiesta": 74385
         }
       }
@@ -2296,13 +2296,13 @@
         "base": {
           "tokyo_skytree_half": 86253,
           "sicilia": 73645,
-          "indy_reverse": 87389,
+          "indy_reverse": 86323,
           "redbull_fiesta": 81941
         },
         "full": {
-          "tokyo_skytree_half": 80208,
-          "sicilia": 68722,
-          "indy_reverse": 81032,
+          "tokyo_skytree_half": 79615,
+          "sicilia": 68209,
+          "indy_reverse": 80743,
           "redbull_fiesta": 75900
         }
       }
@@ -2326,6 +2326,28 @@
           "sicilia": 75682,
           "indy_reverse": 88819,
           "redbull_fiesta": 83791
+        }
+      }
+    },
+    {
+      "id": "car-1793188401407",
+      "name": "GR Supra '20",
+      "class": "performance",
+      "tuning": "23232",
+      "maxPoint": 926,
+      "imageName": "GRSUPRA20.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 92813,
+          "sicilia": 78535,
+          "indy_reverse": 92250,
+          "redbull_fiesta": 84653
+        },
+        "full": {
+          "tokyo_skytree_half": 85643,
+          "sicilia": 71278,
+          "indy_reverse": 85137,
+          "redbull_fiesta": 78569
         }
       }
     }
