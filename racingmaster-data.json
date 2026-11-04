@@ -2009,7 +2009,7 @@
       "records": {
         "base": {
           "tokyo_skytree_half": 85231,
-          "sicilia": 71437,
+          "sicilia": 70091,
           "indy_reverse": 84950,
           "redbull_fiesta": 77901
         },
@@ -2348,6 +2348,50 @@
           "sicilia": 71278,
           "indy_reverse": 85137,
           "redbull_fiesta": 78569
+        }
+      }
+    },
+    {
+      "id": "car-1793776962023",
+      "name": "EB110 Super Sport '92",
+      "class": "standard",
+      "tuning": "13332",
+      "maxPoint": 863,
+      "imageName": "EB11092.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 97214,
+          "sicilia": 81228,
+          "indy_reverse": 97241,
+          "redbull_fiesta": 88647
+        },
+        "full": {
+          "tokyo_skytree_half": 87585,
+          "sicilia": 74206,
+          "indy_reverse": 98431,
+          "redbull_fiesta": 82409
+        }
+      }
+    },
+    {
+      "id": "car-1793777036554",
+      "name": "600LT '18",
+      "class": "performance",
+      "tuning": "13332",
+      "maxPoint": 982,
+      "imageName": "600LT18.png",
+      "records": {
+        "base": {
+          "tokyo_skytree_half": 87931,
+          "sicilia": 74951,
+          "indy_reverse": 82444,
+          "redbull_fiesta": 81122
+        },
+        "full": {
+          "tokyo_skytree_half": 81638,
+          "sicilia": 69170,
+          "indy_reverse": 82206,
+          "redbull_fiesta": 75912
         }
       }
     }
